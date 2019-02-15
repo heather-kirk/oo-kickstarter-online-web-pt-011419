@@ -3,6 +3,10 @@ attr_accessor :backed_projects
 attr_reader :name 
 
 def initialize
+@backed_projects = backed_projects
 @backed_projects = []
 @name = name 
+end 
+
+def back_project()
 end 
